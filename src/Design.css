@@ -4,7 +4,8 @@
     padding:0 3rem;
     background: black;
     color: white;
-    position:relative
+    position:relative;
+    overflow:hidden;
 }
 .image{
     width: 85%;

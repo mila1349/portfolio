@@ -21,7 +21,7 @@ form{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 .input-box span{
     width: 45%;
@@ -42,7 +42,7 @@ form{
     height: 100px;
 }
 button{
-    margin:2rem 0;
+    margin:1rem 0;
     padding: 0.5rem 1.5rem;
     background: white;
     color: black;
