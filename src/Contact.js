@@ -4,7 +4,10 @@ import './Contact.css'
 import mapboxgl from 'mapbox-gl';
 import apiKey from './EmailKey'
 import * as emailjs from "emailjs-com";
+//eslint-disable-next-line import/no-webpack-loader-syntax
+import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker"
 
+mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken = "pk.eyJ1IjoibWlsYXJvemkiLCJhIjoiY2txdDM1M2JvMDQzejJ2cDh4MDdwMGpkeSJ9.LlwSpBpanxvRXROAbS1ZrA";
 
 function Contact() {
