@@ -7,7 +7,6 @@ import Skills from './Skills'
 import Contact from './Contact'
 import Profile from './Profile'
 
-require('dotenv').config()
 
 function App() {
   return (

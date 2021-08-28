@@ -5,7 +5,7 @@ import mapboxgl from 'mapbox-gl';
 import apiKey from './EmailKey'
 import * as emailjs from "emailjs-com";
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+mapboxgl.accessToken = "pk.eyJ1IjoibWlsYXJvemkiLCJhIjoiY2txdDM1M2JvMDQzejJ2cDh4MDdwMGpkeSJ9.LlwSpBpanxvRXROAbS1ZrA";
 
 function Contact() {
     const mapContainerRef = useRef(null);
