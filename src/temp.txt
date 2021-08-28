@@ -1,0 +1,52 @@
+import React, {useContext, useState, useEffect} from 'react'
+import Navbar from './Navbar'
+import Carousel from "react-elastic-carousel";
+import {Context} from './Context' 
+import {Img} from './DesignImg'
+import './Design.css'
+import Ohii2 from "./image/ohii.png"
+
+const breakPoints=[
+    {width:1, itemsToShow:1},
+    {width:500, itemsToShow:2},
+    {width:750, itemsToShow:3},
+    {width:1200, itemsToShow:4},
+]
+
+function Design(){
+    const {designProvide}=useContext(Context);
+    const [design, setDesign]=designProvide; 
+    const [show, setShow]=useState("")
+
+    useEffect(()=>{
+        setShow(design[0].big);
+    },[])
+
+    return(
+        <div className="design">
+            <Navbar
+                no="04"
+                name="Design"
+            />
+
+            <div className="image">
+                <img src={show} alt="" />
+            </div>
+
+            <div className="img-carousel">
+                <Carousel breakPoints={breakPoints}>
+                    {
+                        design.map(item=>(
+                            <Img
+                                onClick={console.log("haiiii")}
+                                src={item.small}
+                            />
+                        ))
+                    }
+                </Carousel>
+            </div>
+        </div>
+    )
+}
+
+export default Design

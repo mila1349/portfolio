@@ -1,0 +1,12 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:2rem 0;
+    position: sticky;
+}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+}
