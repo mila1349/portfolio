@@ -19,7 +19,7 @@ function Profile() {
                     <img src={profile} alt="" />
                     <p>
                         My name is Inne Kamila, i'm freelance Full Stack Web Developer and UI/UX Designer based in Indonesia, 
-                        I'm fresh graduate student of Computer Science of University Computer Indonesia, learned large range 
+                        I'm student of Computer Science of University Computer Indonesia, learned large range 
                         of computer science related knowledge with main interest in software development project.</p><p>
                         I also skilled in graphic design and layouting in general since it helps in designing application.
                         Hardworking, fully motivated, strong attention to detail, innovate, and eager to learn and cooperate 
@@ -30,7 +30,7 @@ function Profile() {
                         <span>
                             <p>Name: Inne Kamila</p>
                             <p>Sex: Female</p>
-                            <p>Age: 22 Years Old</p>
+                            <p>Age: 20 Years Old</p>
                             <p>Address: Bandung, Indonesia</p>
                         </span>
                         <span>
